@@ -1,8 +1,8 @@
-/* Arka plan mavi ve açık pembe degrade */
+/* Sayfa genel stili */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, #87CEFA, #FFB6C1);
+    background: linear-gradient(to bottom right, #87CEFA, #FFB6C1); /* Mavi ve açık pembe degrade */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,35 +10,24 @@ body {
     min-height: 100vh;
 }
 
-/* Başlık */
+/* Başlık stili */
 h1 {
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
-/* Tüm linkler */
-a {
+/* İndir butonu stili */
+a.download {
     text-decoration: none;
-    color: #000;
-    background-color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px;
-    display: inline-block;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 20px;
     transition: 0.3s;
 }
 
-/* Hover efekti */
-a:hover {
-    background-color: #ddd;
-}
-
-/* İndir butonu özel */
-.download {
-    background-color: #4CAF50;
-    color: #fff;
-}
-
-.download:hover {
+/* Buton üzerine gelindiğinde renk değişimi */
+a.download:hover {
     background-color: #45a049;
 }
