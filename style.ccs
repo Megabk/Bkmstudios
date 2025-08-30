@@ -1,0 +1,67 @@
+/* Genel stil */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #AEE6F9; /* Candy blossom mavisi */
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #4BAED8;
+    color: white;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* İçerik */
+.content {
+    padding: 50px 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff7eb3;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #ff5d9e;
+}
+
+/* Footer */
+footer {
+    background-color: #4BAED8;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
